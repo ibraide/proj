@@ -1,0 +1,48 @@
+#first-section{
+  background-color: black;
+  color: white;
+  opacity: 100%;
+  background-image: url(../src/assets/photos/01.png) top left;
+  background-image: url(../src/assets/photos/580b57fcd9996e24bc43c1a8.png) top right;
+}
+
+.lead{
+  color: white;
+  width: 620px;
+  height: 86px;
+  opacity: 100%;
+  font-family: 'Lato', sans-serif;
+  /*position: relative;
+  left: 50px;
+  top: 180px;*/
+}
+
+.google{
+  width: 268.69px;
+  height: 80.15px;
+  opacity: 100%;
+  /* position: relative;
+  top: 90px;
+  left: 50px; */
+}
+
+.navbar-light {
+  border-radius: 0;
+  text-align: center;
+}
+
+.display-4{
+  color: #5c0426;
+  width: 420px;
+  height: 56px;
+  opacity: 100%;
+  font-family: 'Lato', sans-serif;
+  position: relative;
+}
+
+#first{
+  height: 476px;
+  background-size: cover;
+  background-position: top;
+  background-image: url(../assets/photos/Mask-Group-4.png);
+}

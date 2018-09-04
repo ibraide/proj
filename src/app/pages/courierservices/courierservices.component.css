@@ -1,0 +1,54 @@
+
+#second-section{
+  background-color: none;
+}
+
+.now{
+  color:yellow;
+  font-family: sans-serif, 'montserrat';
+  width: 245px;
+  height: 22px;
+  opacity: 100%;
+  font-weight: 500;
+  position: relative;
+}
+
+.display-4{
+  color: white;
+  width: 420px;
+  height: 56px;
+  opacity: 100%;
+  font-family: 'Lato', sans-serif;
+  position: relative;
+}
+
+#first{
+  height: 476px;
+  background-size: cover;
+  background-position: top;
+  background-image: url(../assets/photos/Mask-Group-30.png);
+}
+
+.google{
+  width: 268.69px;
+  height: 80.15px;
+  opacity: 100%;
+ /* position: relative;
+  top: 90px;
+  left: 50px; */
+}
+
+.lead{
+  color: white;
+  width: 620px;
+  height: 86px;
+  opacity: 100%;
+  font-family: 'Lato', sans-serif;
+  position: relative;
+  /*left: 50px;
+  top: 180px;*/
+}
+
+#second{
+  background-color: #5C0426;
+}

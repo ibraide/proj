@@ -1,0 +1,45 @@
+<app-navbar>
+</app-navbar>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="fooddelivery" [class.activated]="currentUrl == '/fooddelivery' ">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="signin" [class.activated]="currentUrl == '/signin' ">Payment Methods</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="signin" [class.activated]="currentUrl == '/signin'">My Orders</a>
+        </li>
+        <li class="nav-item" style="text-align: right">
+          <a class="nav-link" routerLink="signin" [class.activated]="currentUrl == '/signin'">Cart</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="jumbotron" id="first">
+      <div class="container">
+      <div style="margin-top:50px">
+      <div style="text-align:center">
+        <h1 class="display-4">Food Delivery Directly To Your Doorstep</h1>
+
+      </div>
+      </div>
+      </div>
+      </div>
+
+
+<section id="first-section">
+    <p class="lead">You can now download our mobile app from the Google play store.</p>
+    <img src="../src/assets/photos/google-play-badge-en.png" id="badge" class="google">
+</section>
+
+<app-bottom-navbar></app-bottom-navbar>
+
+<div id="content">
+    <router-outlet></router-outlet>
+</div>

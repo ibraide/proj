@@ -1,0 +1,9 @@
+.navbar-dark {
+  background-color: #5C0426;
+  border-radius: 0;
+  text-align: center;
+}
+
+.nav-item{
+  color: white;
+}

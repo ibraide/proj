@@ -1,0 +1,59 @@
+.trust{
+  color:#676768;
+  font-family: sans-serif, 'montserrat';
+  width: 127px;
+  height: 22px;
+  opacity: 100%;
+  font-weight: 900;
+  font-size: 18px;
+}
+
+img.spectra{
+  width: 205.08px;
+  height: 98.82px;
+  transform: scale(350px,958.18px);
+  opacity: 100%;
+  position: relative;
+  top: 25px;
+  margin: 5px;
+}
+
+  img.buka{
+  width: 268.69px;
+  height: 80.15px;
+  transform: scale(692px,958.83px);
+  opacity: 100%;
+  position: relative;
+  top: 25px;
+  margin: 5px;
+}
+
+  img.mega{
+  width: 111.57px;
+  height: 82.88px;
+  transform: scale(936px,961.15px);
+  opacity: 100%;
+  position: relative;
+  top: 25px;
+  margin: 5px;
+}
+
+  img.fuud{
+  width: 89.13px;
+  height: 89.13px;
+  transform: scale(1184px,954.83px);
+  opacity: 100%;
+  position: relative;
+  top: 25px;
+  margin: 5px;
+}
+
+  img.place{
+  width: 159.96px;
+  height: 78.92px;
+  transform: scale(1410px,958.18px);
+  opacity: 100%;
+  position: relative;
+  top: 25px;
+  margin: 5px;
+}

@@ -1,0 +1,27 @@
+<nav class="navbar navbar-fixed-top navbar-expand-lg navbar-dark">
+  <a class="navbar-brand" href="#">
+    <img src="../src/assets/photos/Group 811.png" width="114px" height="39px" alt="">
+  </a>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" routerLink="courierservices" [class.activated]="currentUrl == '/courierservices' ">Courier Services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="fooddelivery" [class.activated]="currentUrl == '/fooddelivery' ">Food Delivery</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">How It Works</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">FAQs</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="signin" [class.activated]="currentUrl == '/signin'">Sign In</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Become A Dispatcher</a>
+      </li>
+    </ul>
+  </div>
+</nav>

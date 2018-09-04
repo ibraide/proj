@@ -1,0 +1,108 @@
+<app-navbar></app-navbar>
+
+<app-home-navbar></app-home-navbar>
+
+<div class="jumbotron" id="first">
+  <div class="container">
+  <div style="margin-top:50px">
+  <div style="text-align:center">
+    <h1 class="display-4">Find Nearby Drivers for Your Pickup and Delivery Needs</h1>
+    <p class="now">Nigeria's No 1 On-demand Delivery and Pickup Platform</p>
+    <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Pickup Address" aria-label="Search">
+        <input class="form-control mr-sm-2" type="search" placeholder="Delivery Address" aria-label="Search">
+        <button class="btn my-2 my-sm-0" style="background-color: #5C0426" type="submit">Request Boxit</button>
+    </form>
+  </div>
+  </div>
+  </div>
+  </div>
+
+  <!--insert image icons-->
+
+<section id="second-section">
+  <div style="text-align:center">
+  <h2 class="demand">On demand Delivery and Delivery Services With Realtime Update</h2>
+     <p class="enjoy">Enjoy meals from your comfort zone</p>
+      <br>
+
+  <div class="row">
+    <div class="column">
+    <div class="col-sm-4">
+     <div class="container">
+       <h2 font-family= "sans-serif, 'Lato'">Enter Pickup and Delivery Address</h2>
+       <p font-family= "sans-serif, 'Lato'"> Some text that describes me lorem ipsum ipsum lorem.</p>
+     </div>
+     </div>
+    </div>
+
+    <div class="column">
+    <div class="col-sm-4">
+     <div class="container">
+       <h2 font-family= "sans-serif, 'Lato'">Select Nearest and Preferred Dispatcher</h2>
+       <p font-family= "sans-serif, 'Lato'">Some text that describes me lorem ipsum ipsum lorem.</p>
+     </div>
+    </div>
+    </div>
+
+   <div class="column">
+   <div class="col-sm-4">
+     <div class="container">
+       <h2 font-family= "sans-serif, 'Lato'">Get It Picked Up and Delivered Quick</h2>
+       <p font-family= "sans-serif, 'Lato'">Some text that describes me lorem ipsum ipsum lorem.</p>
+     </div>
+   </div>
+   </div>
+   </div>
+   </div>
+   </section>
+
+   <div class="jumbotron" id="second">
+    <div class="container">
+      <div class="float-md-right">
+      <h1 class="display-4">Download Our App</h1>
+      <p class="lead">Lorem ipsum dolor sit amet</p>
+      <br>
+      <br>
+      <img src="../src/assets/photos/google-play-badge-en.png" id="play" class="google">
+    </div>
+    </div>
+
+    <section>
+    <form>
+    <div class="form-group">
+      <div style="float: left">
+        <h2 font-family= "sans-serif, 'Lato'" style="color: grey" >Request for a BoxIt Delivery Driver</h2>
+        <input class="form-control mr-sm-2" type="search" placeholder="Pickup Address" aria-label="Search">
+        <input class="form-control mr-sm-2" type="search" placeholder="Delivery Address" aria-label="Search">
+        <button class="btn my-2 my-sm-0" style="background-color: #5C0426" type="submit">Request Boxit</button>
+      </div>
+    </div>
+    </form>
+      <div style="float: right">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253682.63269195505!2d3.1438709179200326!3d6.5480356976437575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8b2ae68280c1%3A0xdc9e87a367c3d9cb!2sLagos!5e0!3m2!1sen!2sng!4v1534703525401" width="1190.37px" height="555px" frameborder="0" style="border:0" class="map" allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <div class="jumbotron" id="third">
+      <div class="container">
+      <div style="background-image: url(../src/assets/photos/Mask-Group-52.png)">
+      <div class="float-md-left">
+        <h1 class="display-4">Make Money On Boxit</h1>
+        <h1 class="display-4">Become a Driver/Dispatcher</h1>
+        <p class="lead">Lorem ipsum dolor sit amet</p>
+      <!--create register as a dispatcher route-->
+        <a href="" button type="button-sign-up" id="register" style="background-color: #5C0426"><button>Register as a Dispatcher</button></a>
+      </div>
+      </div>
+      </div>
+    </div>
+
+   <app-sponsors></app-sponsors>
+
+
+   <app-bottom-navbar></app-bottom-navbar>
+
+   <div id="content">
+      <router-outlet></router-outlet>
+   </div>

@@ -1,0 +1,135 @@
+body {
+  background-color: #5C0426;
+  opacity: 100%;
+}
+/* Bordered form */
+#form_id {
+  color: white;
+  border: 4px 4px;
+  width: 499px;
+  height: 358px;
+  opacity: 100%;
+  transform: scale(711px,271px);
+
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 418.75px;
+  height: 86.08px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  box-sizing: border-box;
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  border-bottom: 2px solid #5C0426;
+  transform: scale(751px,365px);
+  opacity: 100%;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #5C0426;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: 29px 29px;
+  cursor: pointer;
+  width: 418px;
+  height: 58px;
+  opacity: 100%;
+  transform: scale(751px,617px);
+  font: 'montserrat', sans-serif;
+  font-weight: 300;
+
+}
+
+/* the deliver image inside this container */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+  width: 20%;
+  border-radius: 20%;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 24px;
+}
+
+p {
+  text-align: center;
+  font: 'montserrat', sans-serif;
+  opacity: 100%;
+  width: 194px;
+  height: 18px;
+  transform: scale(864px,702.79px);
+  font-weight: normal;
+  font-size: 14px;
+  position: relative;
+  top: 0px;
+  color: #5C0426;
+}
+
+.remember{
+  text-align: left;
+  font: 'montserrat', sans-serif;
+  opacity: 100%;
+  width: 113px;
+  height: 15px;
+  transform: scale(782.24px,567px);
+  font-weight: normal;
+  font-size: 12px;
+  position: relative;
+  top: 0px;
+  color: #AAAAAA;
+}
+
+#button1{
+  text-align: left;
+  font: 'montserrat', sans-serif;
+  opacity: 100%;
+  width: 65px;
+  height: 22px;
+  transform: scale(823px,301px);
+  font-weight: bold;
+  font-size: 18px;
+  position: relative;
+  color: #5C0426;
+  top: 0px;
+  left: 50px;
+}
+
+#button2{
+  text-align: left;
+  font: 'montserrat', sans-serif;
+  opacity: 100%;
+  width: 72px;
+  height: 22px;
+  transform: scale(1026px,301px);
+  font-weight: 500;
+  font-size: 18px;
+  position: relative;
+  top: 0px;
+  left: 200px;
+  color: #AAAAAA;
+}
+/* The "Forgot password" text
+span.psw {
+  float: right;
+  padding-top: 16px;
+}*/
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+      display: block;
+      float: none;
+  }
+}

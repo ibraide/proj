@@ -1,0 +1,107 @@
+<div id="container">
+  <app-navbar></app-navbar>
+
+  <div class="jumbotron" id="first">
+   <div class="container">
+    <div style="margin-top:50px">
+      <h1 class="display-4">Pickup, Delivery and Food Ordering Made Easy</h1>
+      <p class="lead">Enjoy meals from your comfort zone.</p>
+      <br>
+      <p class="now">Now available on android.</p>
+      <img src="../src/assets/photos/google-play-badge-en.png" id="play" class="google">
+    </div>
+   </div>
+  </div>
+
+    <section id="second-section">
+    <app-sponsors></app-sponsors>
+    <div style="text-align:center">
+    <h2 class="demand">On demand Delivery and Restaurant Services</h2>
+       <p class="enjoy">Enjoy meals from your comfort zone</p>
+        <br>
+    <div class="row">
+      <div class="column">
+      <div class="col-sm-4">
+        <img src="../assets/photos/delivery.png" alt="Jane" width="98.16px" height="158.16px">
+       <div class="container">
+         <h2 font-family= "sans-serif, 'Lato'">Easiest Way to get your Pickup and Delivery Done</h2>
+         <p font-family= "sans-serif, 'Lato'"> Some text that describes me lorem ipsum ipsum lorem.</p>
+       </div>
+       </div>
+      </div>
+
+      <div class="column">
+      <div class="col-sm-4">
+       <img src="../src/assets/photos/meal.png" alt="meal" width="98.16px" height="158.16px">
+       <div class="container">
+         <h2 font-family= "sans-serif, 'Lato'" >Get Food Delivered To Your Doorstep Quickly</h2>
+         <p font-family= "sans-serif, 'Lato'">Some text that describes me lorem ipsum ipsum lorem.</p>
+       </div>
+      </div>
+      </div>
+
+     <div class="column">
+     <div class="col-sm-4">
+       <img src="../src/assets/photos/guarantee.png" alt="guarantee" width="98.16px" height="158.16px">
+       <div class="container">
+         <h2 font-family= "sans-serif, 'Lato'">Low Cost Rate and Excellent Value</h2>
+         <p font-family= "sans-serif, 'Lato'">Some text that describes me lorem ipsum ipsum lorem.</p>
+       </div>
+     </div>
+     </div>
+     </div>
+     </div>
+     </section>
+
+    <section id="first-section">
+      <p class="lead">You can now download our mobile app from the Google play store.</p>
+      <img src="../src/assets/photos/google-play-badge-en.png" id="badge" class="google">
+    </section>
+
+    <section>
+     <div class="container">
+     <div style="text-align:center">
+         <h3 class="size">No matter the size</h3>
+         <p class="vehicles">We have dispatchers around the country with different types of vehicles ranging from Motorbikes, Salon Cars and vans</p>
+
+     <div class="imgcontainer">
+             <img src="../src/assets/photos/tgb-express-1.png" alt="tgb" class="tgb">
+             <img src="../src/assets/photos/9266-2019-toyota-corolla.png" alt="toyota" class="toyota">
+             <img src="../src/assets/photos/Ford-Transit-1.png" alt="ford" class="ford">
+     </div>
+             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253682.63269195505!2d3.1438709179200326!3d6.5480356976437575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8b2ae68280c1%3A0xdc9e87a367c3d9cb!2sLagos!5e0!3m2!1sen!2sng!4v1534703525401" width="1190.37px" height="555px" frameborder="0" style="border:0" class="map" allowfullscreen></iframe>
+     </div>
+     </div>
+    </section>
+
+    <div class="jumbotron" id="third">
+        <div class="container">
+        <div style="background-image: url(../src/assets/photos/Mask-Group-52.png)">
+        <div class="float-md-left">
+          <h1 class="display-4">Make Money On Boxit</h1>
+          <h1 class="display-4">Become a Driver/Dispatcher</h1>
+          <p class="lead">Lorem ipsum dolor sit amet</p>
+        <!--create register as a dispatcher route-->
+          <a href="" button type="button-sign-up" id="register" style="background-color: #5C0426"><button>Register as a Dispatcher</button></a>
+        </div>
+        </div>
+        </div>
+    </div>
+
+    <section>
+    <div style="text-align:center">
+        <h3 class="size">Subscribe To Newsletter</h3>
+        <p class="vehicles">Get first hand info on Promos and Bonuses. We keep your account details safe with us</p>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-4" type="search" placeholder="Enter Your Email Address" aria-label="Search">
+            <button class="btn my-2 my-sm-0" style="background-color: #5C0426" type="submit">Request Boxit</button>
+        </form>
+      </div>
+  </section>
+
+     <app-bottom-navbar></app-bottom-navbar>
+
+  <div id="content">
+    <router-outlet></router-outlet>
+  </div>
+</div>

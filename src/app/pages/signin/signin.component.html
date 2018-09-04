@@ -1,0 +1,61 @@
+<div class="imgcontainer">
+    <img src="Assets/Group%20829.png" alt="Avatar" class="avatar">
+</div>
+
+<div class="container" style="background-color: white">
+    <form id="form_id" method="post" name="myform">
+
+
+        <a href="#" button type="button-sign-in" id="button1" style="margin: 5px;"><button>Sign In</button></a>
+        <a routerLink="signup" button type="button-sign-up" id="button2" style="margin: 5px;"><button>Sign Up</button></a>
+        <br>
+        <input type="text" name="emailadd" id="emailadd" placeholder="Enter Email Address" required/>
+        <br>
+        <input type="password" name="password" id="password" placeholder="Enter Password" required/>
+        <br>
+        <label>
+      <input type="checkbox" checked="checked" name="remember" class="remember"> Remember me
+    </label>
+    <br>
+       <button type="submit" class="btn" style="background-color: #5c0426" onclick="check(form)">Sign In</button>
+    <br>
+    <p>Or Sign In with Social Media</p>
+
+    </form>
+</div>
+
+<!--<form-group [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+    <div class="form-group">
+        <a href="#" button type="button-sign-in" id="button1" style="margin: 5px;"><button>Sign In</button></a>
+        <a routerLink="signup" button type="button-sign-up" id="button2" style="margin: 5px;"><button>Sign Up</button></a>
+        <br>
+        <label for="username">Email Address</label>
+        <input type="text" formControlName="eadd" class="form-control" [ngClass]="{ 'is-invalid': submitted && eadd.errors }" />
+        <div *ngIf="submitted && eadd.errors" class="invalid-feedback">
+            <div *ngIf="eadd.errors.required">Email Address is required</div>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" formControlName="password" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.password.errors }" />
+        <div *ngIf="submitted && f.password.errors" class="invalid-feedback">
+            <div *ngIf="f.password.errors.required">Password is required</div>
+        </div>
+    </div>
+    <label>
+        <input type="checkbox" checked="checked" name="remember" class="remember"> Remember me
+    </label>
+      <br>
+    <div class="form-group">
+        <button type="submit" class="btn" style="background-color: rgb(216, 53, 115)">Sign In</button>
+    </div>
+    <br>
+    <p>Or Sign In with Social Media</p>
+
+</form>
+
+</div>
+
+<div class="imgcontainer">
+    <img src="Assets/Group%20829.png" alt="Avatar" class="avatar">
+  </div>-->
